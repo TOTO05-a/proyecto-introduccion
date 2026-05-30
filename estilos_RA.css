@@ -1,0 +1,1271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #111;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ---- NAVEGACION ---- */
+
+.nav_RA {
+    background-color: #0d0d0d;
+    border-bottom: 2px solid #e8560a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav_logo_RA {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.nav_logo_RA span {
+    color: #e8560a;
+}
+
+.nav_menu_RA {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav_menu_RA a {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.nav_menu_RA a:hover {
+    color: #e8560a;
+}
+
+.nav_activo_RA {
+    color: #e8560a !important;
+    border-bottom: 2px solid #e8560a;
+    padding-bottom: 2px;
+}
+
+.nav_btn_RA {
+    background-color: #e8560a;
+    color: #000 !important;
+    padding: 7px 18px;
+    font-size: 12px !important;
+}
+
+.nav_btn_RA:hover {
+    background-color: #ff6600 !important;
+    color: #000 !important;
+}
+
+
+/* ---- HERO ---- */
+
+.hero_RA {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    padding: 60px 40px;
+    gap: 40px;
+    border-bottom: 1px solid #222;
+}
+
+.hero_texto_RA {
+    flex: 1;
+    max-width: 560px;
+}
+
+.hero_etiqueta_RA {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 18px;
+}
+
+.hero_titulo_RA {
+    font-family: Arial, sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero_titulo_RA em {
+    color: #e8560a;
+    font-style: italic;
+}
+
+.hero_desc_RA {
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 36px;
+    max-width: 420px;
+    line-height: 1.8;
+}
+
+.hero_botones_RA {
+    display: flex;
+    gap: 14px;
+}
+
+.hero_moto_RA {
+    flex: 1;
+}
+
+.hero_moto_RA img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* cifras debajo del hero */
+.hero_cifras_RA {
+    background-color: #161616;
+    border-top: 1px solid #222;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 24px 40px;
+}
+
+.cifra_item_RA {
+    text-align: center;
+}
+
+.cifra_num_RA {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #e8560a;
+}
+
+.cifra_texto_RA {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+
+/* ---- BOTONES ---- */
+
+.btn_naranja_RA {
+    display: inline-block;
+    background-color: #e8560a;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 12px 26px;
+}
+
+.btn_naranja_RA:hover {
+    background-color: #ff6600;
+    color: #000;
+}
+
+.btn_borde_RA {
+    display: inline-block;
+    border: 1px solid #444;
+    color: #aaa;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 12px 26px;
+}
+
+.btn_borde_RA:hover {
+    border-color: #e8560a;
+    color: #e8560a;
+}
+
+
+/* ---- SECCIONES generales ---- */
+
+.seccion_RA {
+    padding: 70px 40px;
+}
+
+.sec_etiqueta_RA {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e8560a;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.sec_titulo_RA {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec_titulo_izq_RA {
+    text-align: left;
+}
+
+
+/* ---- FRANJA de marcas ---- */
+
+.franja_marcas_RA {
+    background-color: #e8560a;
+    padding: 11px 0;
+    overflow: hidden;
+}
+
+.franja_inner_RA {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0 40px;
+}
+
+.franja_inner_RA span {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.franja_punto_RA {
+    opacity: 0.4;
+    font-size: 8px !important;
+}
+
+
+/* ---- GRID de motos destacadas (index) ---- */
+
+.sec_oscura_RA {
+    background-color: #161616;
+}
+
+.grid_motos_RA {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    gap: 18px;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+}
+
+.card_moto_RA {
+    display: block;
+    background-color: #1a1a1a;
+    border: 1px solid #252525;
+    overflow: hidden;
+    position: relative;
+}
+
+.card_moto_RA:hover {
+    border-color: #e8560a;
+}
+
+.card_moto_RA img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #111;
+}
+
+.card_grande_RA img {
+    height: 240px;
+}
+
+.card_info_RA {
+    padding: 18px 20px 22px;
+}
+
+.card_marca_RA {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #e8560a;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.card_nombre_RA {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.card_detalle_RA {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.card_precio_RA {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e8560a;
+}
+
+.card_badge_RA {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #e8560a;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+}
+
+.sec_cta_RA {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* ---- SERVICIOS fondo naranja oscuro (index) ---- */
+
+.sec_servicios_bg_RA {
+    background-color: #160b04;
+    border-top: 1px solid #2a1408;
+    border-bottom: 1px solid #2a1408;
+}
+
+.grid_servicios_RA {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background-color: #2a1408;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.serv_box_RA {
+    background-color: #160b04;
+    padding: 32px 24px;
+}
+
+.serv_box_RA:hover {
+    background-color: #1e1008;
+}
+
+.serv_icono_RA {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 14px;
+    color: #e8560a;
+}
+
+.serv_box_RA h3 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.serv_box_RA p {
+    font-size: 13px;
+    color: #a07050;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.serv_precio_RA {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e8560a;
+}
+
+
+/* ---- POR QUE ELEGIRNOS (index) ---- */
+
+.porque_grid_RA {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 70px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.porque_txt_RA p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.85;
+    margin-bottom: 28px;
+    max-width: 380px;
+}
+
+.porque_lista_RA {
+    border: 1px solid #252525;
+}
+
+.porque_item_RA {
+    display: flex;
+    gap: 20px;
+    padding: 22px 24px;
+    border-bottom: 1px solid #252525;
+    align-items: flex-start;
+}
+
+.porque_item_RA:last-child {
+    border-bottom: none;
+}
+
+.porque_item_RA:hover {
+    background-color: #1a1a1a;
+}
+
+.porque_num_RA {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e8560a;
+    min-width: 32px;
+    opacity: 0.6;
+}
+
+.porque_item_RA h3 {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.porque_item_RA p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* ---- ENCABEZADO paginas internas ---- */
+
+.pag_header_RA {
+    background-color: #161616;
+    border-bottom: 1px solid #222;
+    padding: 56px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pag_header_RA p {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 8px;
+}
+
+.pag_header_titulo_RA {
+    font-family: Arial, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+}
+
+/* texto de fondo decorativo */
+.pag_header_deco_RA {
+    position: absolute;
+    right: 20px;
+    bottom: -15px;
+    font-family: Arial, sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.03;
+    line-height: 1;
+    user-select: none;
+}
+
+
+/* ---- CATALOGO de productos ---- */
+
+.catalogo_RA {
+    padding: 0 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.prod_fila_RA {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+/* filas alternas: imagen a la derecha */
+.prod_fila_inv_RA .prod_img_RA {
+    order: 2;
+}
+
+.prod_fila_inv_RA .prod_info_RA {
+    order: 1;
+}
+
+.prod_img_RA {
+    background-color: #111;
+    overflow: hidden;
+    position: relative;
+}
+
+.prod_img_RA img {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+}
+
+.prod_badge_nuevo_RA,
+.prod_badge_usado_RA {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+}
+
+.prod_badge_nuevo_RA {
+    background-color: #e8560a;
+    color: #000;
+}
+
+.prod_badge_usado_RA {
+    background-color: transparent;
+    border: 1px solid #c8a060;
+    color: #c8a060;
+}
+
+.prod_info_RA {
+    padding: 44px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod_marca_RA {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 6px;
+}
+
+.prod_nombre_RA {
+    font-family: Arial, sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.prod_tipo_RA {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.prod_desc_RA {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.85;
+    margin-bottom: 22px;
+    max-width: 420px;
+}
+
+/* tabla de specs */
+.specs_RA {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 340px;
+    margin-bottom: 26px;
+}
+
+.specs_RA tr {
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.specs_RA td {
+    padding: 7px 0;
+    font-size: 13px;
+}
+
+.specs_RA td:first-child {
+    color: #555;
+    width: 44%;
+}
+
+.specs_RA td:last-child {
+    color: #ccc;
+}
+
+.prod_precio_wrap_RA {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.prod_precio_RA {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #e8560a;
+}
+
+.prod_cuota_RA {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+}
+
+
+/* ---- TABLA SERVICIOS ---- */
+
+.tabla_wrap_RA {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.tabla_RA {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+}
+
+.tabla_RA thead tr {
+    background-color: #e8560a;
+}
+
+.tabla_RA th {
+    padding: 13px 18px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.tabla_RA td {
+    padding: 12px 18px;
+    font-size: 13px;
+    border-bottom: 1px solid #222;
+    color: #aaa;
+}
+
+.tabla_RA tr:last-child td {
+    border-bottom: none;
+}
+
+.tabla_RA tbody tr:hover td {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+
+.tabla_RA td:nth-child(3) {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e8560a;
+}
+
+
+/* ---- HISTORIA (acerca) ---- */
+
+.historia_grid_RA {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 70px;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.historia_txt_RA p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.85;
+    margin-bottom: 16px;
+}
+
+/* bloques de años */
+.historia_bloques_RA {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    border: 1px solid #252525;
+}
+
+.bloque_RA {
+    background-color: #1a1a1a;
+    padding: 28px 20px;
+    text-align: center;
+    border: 1px solid #252525;
+}
+
+.bloque_RA:hover {
+    background-color: #1f1f1f;
+}
+
+.bloque_num_RA {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e8560a;
+    margin-bottom: 6px;
+}
+
+.bloque_RA p {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+
+/* ---- EQUIPO ---- */
+
+.sec_equipo_bg_RA {
+    background-color: #161616;
+    border-top: 1px solid #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.sec_historia_bg_RA {
+    background-color: #131313;
+    border-top: 1px solid #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.sec_desc_RA {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.85;
+    margin-bottom: 16px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.grid_equipo_RA {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background-color: #1e1e1e;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card_emp_RA {
+    background-color: #161616;
+    padding: 32px 26px;
+    border: 1px solid #1e1e1e;
+}
+
+.card_emp_RA:hover {
+    background-color: #1b1b1b;
+}
+
+/* iniciales del empleado como avatar */
+.emp_iniciales_RA {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.av_naranja_RA { background-color: #e8560a; }
+.av_dorado_RA  { background-color: #c8a060; }
+.av_verde_RA   { background-color: #4a7a4a; }
+.av_azul_RA    { background-color: #4a6aaa; }
+.av_morado_RA  { background-color: #8a5aaa; }
+
+.card_emp_RA h3 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.emp_cargo_RA {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card_emp_RA p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.65;
+}
+
+
+/* ---- CONTACTO ---- */
+
+.contacto_grid_RA {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contacto_item_RA {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.contacto_item_RA:last-child {
+    border-bottom: none;
+}
+
+.contacto_icono_RA {
+    font-size: 20px;
+    min-width: 26px;
+    margin-top: 2px;
+}
+
+.contacto_item_RA strong {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 5px;
+}
+
+.contacto_item_RA p {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.7;
+}
+
+/* mapa placeholder */
+.mapa_box_RA {
+    background-color: #1a1a1a;
+    border: 1px solid #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    text-align: center;
+}
+
+.mapa_box_RA p {
+    font-size: 13px;
+    color: #444;
+}
+
+.mapa_box_RA p:first-child {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mapa_nota_RA {
+    font-size: 11px !important;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+
+/* ---- FOOTER ---- */
+
+.footer_RA {
+    background-color: #0a0a0a;
+    border-top: 1px solid #1a1a1a;
+}
+
+.footer_top_RA {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 56px 40px 44px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.footer_logo_RA {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer_logo_RA span {
+    color: #e8560a;
+}
+
+.footer_marca_RA p {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.7;
+}
+
+.footer_col_RA h4 {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 16px;
+}
+
+.footer_col_RA a {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 7px;
+}
+
+.footer_col_RA a:hover {
+    color: #aaa;
+}
+
+.footer_col_RA p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.footer_bottom_RA {
+    text-align: center;
+    padding: 16px 40px;
+    font-size: 11px;
+    color: #333;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .nav_btn_RA {
+        display: none;
+    }
+
+    .nav_RA {
+        padding: 0 20px;
+    }
+
+    .nav_menu_RA {
+        gap: 18px;
+    }
+
+    .hero_RA {
+        flex-direction: column;
+        padding: 40px 20px 60px;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .hero_titulo_RA {
+        font-size: 48px;
+    }
+
+    .hero_desc_RA {
+        max-width: none;
+    }
+
+    .hero_botones_RA {
+        justify-content: center;
+    }
+
+    .hero_cifras_RA {
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .seccion_RA,
+    .sec_servicios_bg_RA,
+    .sec_equipo_bg_RA {
+        padding: 50px 20px;
+    }
+
+    .grid_motos_RA {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card_grande_RA {
+        grid-column: span 2;
+    }
+
+    .grid_servicios_RA {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .porque_grid_RA {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .pag_header_titulo_RA {
+        font-size: 36px;
+    }
+
+    .pag_header_deco_RA {
+        font-size: 80px;
+    }
+
+    .catalogo_RA {
+        padding: 0 20px;
+    }
+
+    .prod_fila_RA,
+    .prod_fila_inv_RA {
+        grid-template-columns: 1fr;
+    }
+
+    .prod_fila_inv_RA .prod_img_RA {
+        order: 0;
+    }
+
+    .prod_fila_inv_RA .prod_info_RA {
+        order: 0;
+    }
+
+    .prod_info_RA {
+        padding: 28px 24px;
+    }
+
+    .prod_nombre_RA {
+        font-size: 32px;
+    }
+
+    .historia_grid_RA {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .grid_equipo_RA {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacto_grid_RA {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_top_RA {
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+        padding: 40px 20px 32px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .nav_menu_RA a {
+        font-size: 11px;
+    }
+
+    .hero_titulo_RA {
+        font-size: 38px;
+    }
+
+    .grid_motos_RA {
+        grid-template-columns: 1fr;
+    }
+
+    .card_grande_RA {
+        grid-column: span 1;
+    }
+
+    .grid_servicios_RA {
+        grid-template-columns: 1fr;
+    }
+
+    .grid_equipo_RA {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_top_RA {
+        grid-template-columns: 1fr;
+    }
+
+    .historia_bloques_RA {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ---- CREADORES (acerca) ---- */
+.creadores_grid_RA {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    background-color: #1e1e1e;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card_creador_RA {
+    background-color: #161616;
+    padding: 36px 32px;
+    border: 1px solid #1e1e1e;
+}
+
+.card_creador_RA:hover {
+    background-color: #1b1b1b;
+}
+
+.creador_avatar_RA {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #e8560a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.av_creador2_RA { background-color: #4a6aaa; }
+
+.card_creador_RA h3 {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.creador_carnet_RA {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e8560a;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.creador_dato_RA {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid #1e1e1e;
+    font-size: 13px;
+}
+
+.creador_dato_RA:last-child {
+    border-bottom: none;
+}
+
+.creador_dato_RA span:first-child {
+    color: #555;
+    min-width: 70px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+
+.creador_dato_RA span:last-child {
+    color: #aaa;
+}
+
+@media (max-width: 580px) {
+    .creadores_grid_RA {
+        grid-template-columns: 1fr;
+    }
+}
